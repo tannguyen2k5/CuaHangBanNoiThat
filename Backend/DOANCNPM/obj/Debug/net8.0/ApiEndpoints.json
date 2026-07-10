@@ -1,0 +1,983 @@
+[
+  {
+    "ContainingType": "DOANCNPM.Controllers.ChitiethoadonsController",
+    "Method": "GetChitiethoadons",
+    "RelativePath": "api/Chitiethoadons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DOANCNPM.Models.Chitiethoadon, DOANCNPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.ChitiethoadonsController",
+    "Method": "PostChitiethoadon",
+    "RelativePath": "api/Chitiethoadons",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chitiethoadon",
+        "Type": "DOANCNPM.Models.Chitiethoadon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Chitiethoadon",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.ChitiethoadonsController",
+    "Method": "GetChitiethoadon",
+    "RelativePath": "api/Chitiethoadons/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Chitiethoadon",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.ChitiethoadonsController",
+    "Method": "PutChitiethoadon",
+    "RelativePath": "api/Chitiethoadons/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "chitiethoadon",
+        "Type": "DOANCNPM.Models.Chitiethoadon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.ChitiethoadonsController",
+    "Method": "DeleteChitiethoadon",
+    "RelativePath": "api/Chitiethoadons/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.HoadonsController",
+    "Method": "GetHoadons",
+    "RelativePath": "api/Hoadons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DOANCNPM.Models.Hoadon, DOANCNPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.HoadonsController",
+    "Method": "PostHoadon",
+    "RelativePath": "api/Hoadons",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hoadon",
+        "Type": "DOANCNPM.Models.Hoadon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Hoadon",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.HoadonsController",
+    "Method": "GetHoadon",
+    "RelativePath": "api/Hoadons/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Hoadon",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.HoadonsController",
+    "Method": "PutHoadon",
+    "RelativePath": "api/Hoadons/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hoadon",
+        "Type": "DOANCNPM.Models.Hoadon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.HoadonsController",
+    "Method": "DeleteHoadon",
+    "RelativePath": "api/Hoadons/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.KhachhangsController",
+    "Method": "GetKhachhangs",
+    "RelativePath": "api/Khachhangs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DOANCNPM.Models.Khachhang, DOANCNPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.KhachhangsController",
+    "Method": "PostKhachhang",
+    "RelativePath": "api/Khachhangs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "khachhang",
+        "Type": "DOANCNPM.Models.Khachhang",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Khachhang",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.KhachhangsController",
+    "Method": "GetKhachhang",
+    "RelativePath": "api/Khachhangs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Khachhang",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.KhachhangsController",
+    "Method": "PutKhachhang",
+    "RelativePath": "api/Khachhangs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "khachhang",
+        "Type": "DOANCNPM.Models.Khachhang",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.KhachhangsController",
+    "Method": "DeleteKhachhang",
+    "RelativePath": "api/Khachhangs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.MucdichsudungsController",
+    "Method": "GetMucdichsudungs",
+    "RelativePath": "api/Mucdichsudungs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DOANCNPM.Models.Mucdichsudung, DOANCNPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.MucdichsudungsController",
+    "Method": "PostMucdichsudung",
+    "RelativePath": "api/Mucdichsudungs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mucdichsudung",
+        "Type": "DOANCNPM.Models.Mucdichsudung",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Mucdichsudung",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.MucdichsudungsController",
+    "Method": "GetMucdichsudung",
+    "RelativePath": "api/Mucdichsudungs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Mucdichsudung",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.MucdichsudungsController",
+    "Method": "PutMucdichsudung",
+    "RelativePath": "api/Mucdichsudungs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "mucdichsudung",
+        "Type": "DOANCNPM.Models.Mucdichsudung",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.MucdichsudungsController",
+    "Method": "DeleteMucdichsudung",
+    "RelativePath": "api/Mucdichsudungs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhacungcapsController",
+    "Method": "GetNhacungcaps",
+    "RelativePath": "api/Nhacungcaps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DOANCNPM.Models.Nhacungcap, DOANCNPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhacungcapsController",
+    "Method": "PostNhacungcap",
+    "RelativePath": "api/Nhacungcaps",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nhacungcap",
+        "Type": "DOANCNPM.Models.Nhacungcap",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Nhacungcap",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhacungcapsController",
+    "Method": "GetNhacungcap",
+    "RelativePath": "api/Nhacungcaps/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Nhacungcap",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhacungcapsController",
+    "Method": "PutNhacungcap",
+    "RelativePath": "api/Nhacungcaps/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nhacungcap",
+        "Type": "DOANCNPM.Models.Nhacungcap",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhacungcapsController",
+    "Method": "DeleteNhacungcap",
+    "RelativePath": "api/Nhacungcaps/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhanviensController",
+    "Method": "GetNhanviens",
+    "RelativePath": "api/Nhanviens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DOANCNPM.Models.Nhanvien, DOANCNPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhanviensController",
+    "Method": "PostNhanvien",
+    "RelativePath": "api/Nhanviens",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nhanvien",
+        "Type": "DOANCNPM.Models.Nhanvien",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Nhanvien",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhanviensController",
+    "Method": "GetNhanvien",
+    "RelativePath": "api/Nhanviens/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Nhanvien",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhanviensController",
+    "Method": "PutNhanvien",
+    "RelativePath": "api/Nhanviens/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nhanvien",
+        "Type": "DOANCNPM.Models.Nhanvien",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhanviensController",
+    "Method": "DeleteNhanvien",
+    "RelativePath": "api/Nhanviens/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhomsanphamsController",
+    "Method": "GetNhomsanphams",
+    "RelativePath": "api/Nhomsanphams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DOANCNPM.Models.Nhomsanpham, DOANCNPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhomsanphamsController",
+    "Method": "PostNhomsanpham",
+    "RelativePath": "api/Nhomsanphams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nhomsanpham",
+        "Type": "DOANCNPM.Models.Nhomsanpham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Nhomsanpham",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhomsanphamsController",
+    "Method": "GetNhomsanpham",
+    "RelativePath": "api/Nhomsanphams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Nhomsanpham",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhomsanphamsController",
+    "Method": "PutNhomsanpham",
+    "RelativePath": "api/Nhomsanphams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nhomsanpham",
+        "Type": "DOANCNPM.Models.Nhomsanpham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.NhomsanphamsController",
+    "Method": "DeleteNhomsanpham",
+    "RelativePath": "api/Nhomsanphams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.SanphamsController",
+    "Method": "GetSanphams",
+    "RelativePath": "api/Sanphams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DOANCNPM.Models.Sanpham, DOANCNPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.SanphamsController",
+    "Method": "PostSanpham",
+    "RelativePath": "api/Sanphams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sanpham",
+        "Type": "DOANCNPM.Models.Sanpham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Sanpham",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.SanphamsController",
+    "Method": "GetSanpham",
+    "RelativePath": "api/Sanphams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Sanpham",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.SanphamsController",
+    "Method": "PutSanpham",
+    "RelativePath": "api/Sanphams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "sanpham",
+        "Type": "DOANCNPM.Models.Sanpham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.SanphamsController",
+    "Method": "DeleteSanpham",
+    "RelativePath": "api/Sanphams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.VatlieuxController",
+    "Method": "GetVatlieus",
+    "RelativePath": "api/Vatlieux",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DOANCNPM.Models.Vatlieu, DOANCNPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.VatlieuxController",
+    "Method": "PostVatlieu",
+    "RelativePath": "api/Vatlieux",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vatlieu",
+        "Type": "DOANCNPM.Models.Vatlieu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Vatlieu",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.VatlieuxController",
+    "Method": "GetVatlieu",
+    "RelativePath": "api/Vatlieux/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DOANCNPM.Models.Vatlieu",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.VatlieuxController",
+    "Method": "PutVatlieu",
+    "RelativePath": "api/Vatlieux/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "vatlieu",
+        "Type": "DOANCNPM.Models.Vatlieu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DOANCNPM.Controllers.VatlieuxController",
+    "Method": "DeleteVatlieu",
+    "RelativePath": "api/Vatlieux/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
