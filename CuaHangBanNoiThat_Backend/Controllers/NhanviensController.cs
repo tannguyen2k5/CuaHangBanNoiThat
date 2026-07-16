@@ -13,6 +13,9 @@ namespace DOANCNPM.Controllers
     [ApiController]
     public class NhanviensController : ControllerBase
     {
+        // TODO (SCRUM 10): TÂN - Cập nhật logic API Quản lý danh sách "Nhân viên".
+        // Mục đích: Kiểm soát quyền truy cập hệ thống.
+        // Phân quyền (SCRUM 15): Bắt buộc chỉ Manager mới được thao tác thêm/xóa/sửa nhân viên tại đây.
         private readonly ChbntContext _context;
 
         public NhanviensController(ChbntContext context)

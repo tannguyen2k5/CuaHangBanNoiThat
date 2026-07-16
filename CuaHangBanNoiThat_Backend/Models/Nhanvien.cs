@@ -5,6 +5,7 @@ namespace DOANCNPM.Models;
 
 public partial class Nhanvien
 {
+    // TODO (SCRUM 10): TÂN - Kiểm tra các thuộc tính liên quan đến quyền (Role) của nhân viên để phục vụ cho SCRUM 15.
     public string MaNv { get; set; } = null!;
 
     public string? TenDangNhap { get; set; }

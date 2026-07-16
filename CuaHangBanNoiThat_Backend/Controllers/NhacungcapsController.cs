@@ -13,6 +13,9 @@ namespace DOANCNPM.Controllers
     [ApiController]
     public class NhacungcapsController : ControllerBase
     {
+        // TODO (SCRUM 9): TÂN - Cập nhật logic API Quản lý "Nhà cung cấp".
+    // Mục đích: Theo dõi đối tác nhập hàng (Thêm, sửa, xóa, lấy danh sách).
+    // Phân quyền (SCRUM 15): Sẽ gắn thẻ [Authorize(Roles = "Manager")] cho các hàm Xóa/Sửa tại file này.
         private readonly ChbntContext _context;
 
         public NhacungcapsController(ChbntContext context)

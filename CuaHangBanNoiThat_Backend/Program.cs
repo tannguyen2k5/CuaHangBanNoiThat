@@ -6,6 +6,8 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+// TODO (SCRUM 2): TÂN - Cấu hình khởi tạo project Backend, thiết lập cấu trúc phân tầng và cài đặt dịch vụ Swagger tại đây.
+// TODO (SCRUM 15): TÂN - Cấu hình JWT Authentication và Authorization Policies (phân quyền Manager/Staff) tại đây.
 
 // Đăng ký DbContext kết nối tới SQL Server
 builder.Services.AddDbContext<ChbntContext>(options =>
@@ -107,6 +109,7 @@ app.UseCors("AllowAll");
 
 // Kiểm tra quyền truy cập hệ thống
 app.UseAuthentication(); 
+// TODO (SCRUM 15): TÂN - Đảm bảo Middleware app.UseAuthentication() và app.UseAuthorization() được kích hoạt chuẩn xác ở thứ tự này.
 app.UseAuthorization();
 
 app.MapControllers();

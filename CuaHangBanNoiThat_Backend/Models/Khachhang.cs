@@ -5,6 +5,7 @@ namespace DOANCNPM.Models;
 
 public partial class Khachhang
 {
+    // TODO (SCRUM 11): TÂN - Cấu hình kiểm tra tính hợp lệ của SĐT và Địa chỉ khách hàng tại model này.
     public string MaKhachHang { get; set; } = null!;
 
     public string? TenDangNhap { get; set; }

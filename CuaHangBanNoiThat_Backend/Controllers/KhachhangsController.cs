@@ -13,6 +13,9 @@ namespace DOANCNPM.Controllers
     [ApiController]
     public class KhachhangsController : ControllerBase
     {
+        // TODO (SCRUM 11): TÂN - Cập nhật logic API Quản lý thông tin "Khách hàng".
+        // Yêu cầu bắt buộc: Đảm bảo lưu đúng Tên, SĐT, Địa chỉ của khách hàng.
+        // Phân quyền (SCRUM 15): Cho phép quyền Staff (Nhân viên) được thực hiện các thao tác trên file này.
         private readonly ChbntContext _context;
 
         public KhachhangsController(ChbntContext context)
